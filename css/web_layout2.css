@@ -1,0 +1,274 @@
+/* CSS Document */
+ul li a:hover{text-decoration:underline;}
+/*页面上部背景颜色*/
+.top-wrapper{
+	background:#e8e8e8;
+	}
+/*页面头部样式*/
+header{
+	width:1000px;
+	height:90px;
+	margin:0 auto;
+	}
+/*导航样式*/
+div.nav{
+	z-index:999;
+	position:relative;
+	}
+nav{
+	width:100%;
+	height:36px;
+	background:#01559a;
+	line-height:36px;
+	font-size:14px;
+	}
+nav ul{
+	width:1000px;
+	height:36px;
+	margin:0 auto;
+	}
+nav ul li{
+	float:left;
+	height:35px;
+	width:110px;
+	margin-top:1px;
+	}
+nav a{
+	color:#fff;
+	}
+nav ul li:hover{
+	background:#229eda;
+	}
+nav ul li a{
+	padding:0 25px;
+	}
+nav ul.ch{
+	padding:0px;
+	display:none;
+	width:110px;
+	text-align:center;
+	}
+nav ul.ch li{
+	background-color:#01559a;
+	}
+nav ul.ch li:hover{
+	background-color:#229eda;
+	}
+/*广告条样式*/
+.banner.center{
+	width:1000px;
+	height:350px;
+	margin-top:5px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	}
+.banner.center img{
+	width:1000px;
+	height:350px;
+	}
+a.prev,a.next{
+	display:inline-block;
+	width:58px;
+	height:61px;
+	cursor:pointer;
+	z-index:3;
+	}
+a.prev{
+	background-image:url(../image/prev.png);
+	position:absolute;
+	display: none;
+	}
+a.next{
+	background-image:url(../image/next.png);
+	position:absolute;
+	right: 0px;
+	display: none;
+}
+/*页面主题样式*/
+section{
+	width:1000px;
+	overflow:hidden;
+	}
+.main-left{
+	width:673px;
+	}
+aside{
+	width:307px;
+	}
+/*页面模块共用样式*/
+.moudle .title{
+	width:100%;
+	color:#00F;
+	border-bottom:2px solid #ccc;
+	font-size:24px;
+	line-height:36px;
+	}
+/*产品介绍样式*/
+.notice{
+	width:637px;
+	margin-top:20px;
+	}
+.notice-down{
+	margin-top:30px;
+	}
+.notice .content ul li{
+	width:159px;
+	height:220px;
+	float:left;
+	}
+.notice .content ul li a{
+	padding:20px 0px 0px 0px;
+	display:block;
+	}
+.notice .content ul li a .img{
+	width:148px;
+	height:148px;
+	}
+.notice .content ul li a .img img{
+	width:148px;
+	height:148px;
+	}
+.notice .content a .txt{
+	width:100%;
+	text-align:center;
+	line-height:24px;
+	color:#333;
+	padding-top:10px;
+	}
+/*员工风采样式*/
+.people{
+	width:637px;
+	overflow:hidden;
+	margin-top:30px;
+	}
+.people .title{
+	margin-top:30px;
+	border-bottom:2px solid #ccc;
+	}
+.people .content ul li{
+	width:212px;
+	height:121px;
+	float:left;
+	}
+.people .content ul li .img{
+	width:100px;
+	height:106px;
+	padding:20px 0px 0px 10px;
+	}
+.people .content ul li .img img{
+	width:100px;
+	height:100px;
+	}
+.people .content ul li .txt{
+	width:90px;
+	padding-top:20px;
+	}
+.people .content ul li .txt span{
+	display:block;
+	margin-bottom:10px;
+	line-height:160%;
+	}
+/*快速链接样式*/
+.links{
+	width:307px;
+	height:291px;
+	}
+.link01,.link02,.link03,.link04{
+	width:143px;
+	height:110px;
+	float:left;
+	font-size:20px;
+	display:-moz-box;/*设置盒模型*/
+	display:-webkit-box;
+	-moz-box-align:center;/*设置垂直居中*/
+	-webkit-box-align:center;
+	-moz-box-pack:center;/*设置水平居中*/
+	-webkit-box-pack:center;
+	margin-top:20px;
+	}
+.link01 a,.link02 a,.link03 a,.link04 a{
+	color:#fff;
+	}
+.link01{
+	background:#636363;
+	margin-right:20px;
+	}
+.link02{
+	background:#00547f;
+	}
+.link03{
+	background:#1991c9;
+	margin-right:20px;
+	}
+.link04{
+	background:#7bae02;
+	}
+/*新闻中心与通知公告模块样式*/
+.list,.info{
+	margin-top:20px;
+	}
+.list .title,.info .title{
+	width:100%;
+	background:#48a3d2;
+	font-size:16px;
+	color:#fff;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	}
+.list .content,.info .content{
+	width:100%;
+	line-height:28px;
+	font-size:14px;
+	}
+.list .content ul li,.info .content ul li{
+	width:100%;
+	height:28px;
+	background:#0F6;
+	overflow:hidden;
+	}
+.list .content ul li a,.info .content ul li a{
+	display:block;
+	padding-left:10px;
+	float:left;
+	color:#666;
+	}
+.list .content ul li time,.info .content ul li time{
+	color:#36F;
+	float:right;
+	font-size:13px;
+	}
+.list .content ul li:hover,.info .content ul li:hover{
+	color:#01559a;
+	text-decoration:underline;
+	}
+.new{
+	width:307px;
+	height:272px;
+	background:#e8e8e8;
+	}
+/*页面底部样式*/
+footer{
+	width:1000px;
+	border-top:1px solid #ccc;
+	height:87px;
+	margin:0 auto;
+	margin-top:30px;
+	}
+footer .footer-links{
+	line-height:160%;
+	color:#969696;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	padding:20px 0px 10px 0px;
+	}
+footer .footer-links a{
+	color:#5e81bd;
+	}
+footer .copyright{
+	width:100%;
+	text-align:center;
+	color:#666;
+	}	

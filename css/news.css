@@ -1,0 +1,97 @@
+/* CSS Document */
+/*总规则*/
+ul{list-style-type:none;}
+/*网页的宽度和对齐方式*/
+.main{
+	width:1000px;
+	margin:40px auto;
+	}
+/*导航的宽度、高度和对齐方式*/
+.main nav{
+	width:1000px;
+	height:40px;
+	background-color:#999;
+	border-radius:5px;/*定义圆角边框半径为5px*/
+	}
+/*导航各个栏目的宽度、高度和对齐方式*/
+.main nav ul li{
+	width:70px;
+	height:40px;
+	float:left;
+	text-align:center;
+	line-height:40px;/*行高为40px*/
+	}
+/*超链接初始状态的样式*/
+.main nav ul li a{
+	color:#fff;
+	font-family:"微软雅黑";
+	font-size:14px;
+	}
+/*超链接鼠标悬停的样式*/
+.main nav ul li a:hover{
+	font-weight:bold;
+	}
+/*娱乐新闻和军事新闻模块的CSS规则*/
+.main .block1,.block2{
+	width:430px;
+	height:250px;
+	margin-top:20px;
+	}
+.main .block1{float:left;}
+.main .block2{float:right;}
+/*娱乐新闻和军事新闻模块中的标题样式*/
+.main .block1 h1,.main .block2 h1{
+	color:#333;
+	font-size:20px;
+	font-family:"微软雅黑";
+	line-height:50px;/*行高50px*/
+	text-indent:1em;/*第一行缩进1em*/
+	}
+/*列表规则*/
+.main .block1 ul,.main .block2 ul{
+	width:390px;
+	margin:0px 19px 10px 19px;
+	}
+/*列表各项的宽度和高度*/
+.main .block1 ul li,.main .block2 ul li{
+	width:390px;
+	height:40px;
+	}
+/*各列表间的文字样式*/
+.main .block1 ul li a,.main .block ul li time,.main .block2 ul li a,.main .block ul li time{
+	color:#333;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:40px;
+	}
+.main .block1 ul li a,.main .block2 ul li a{
+	float:left;
+	}
+.main .block1 ul li a:hover,.main .block2 ul li a:hover{
+	color:red;
+	}
+.main .block1 ul li time,.main .block2 ul li time{
+	float:right;
+	}
+/*底部的CSS规则*/
+footer{
+	clear:both;/*清除左右两边的浮动*/
+	width:1000px;
+	height:200px;
+	margin:0 auto;
+	text-align:center;
+	}
+footer h1 span{
+	margin-right:20px;
+	}
+footer h1 span a{
+	color:#333;
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:200px;
+	}
+footer h1 span a:hover{
+	color:red;
+	}
+
+ 

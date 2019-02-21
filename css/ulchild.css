@@ -1,0 +1,15 @@
+/* CSS Document */
+ul{
+	list-style-type:none;
+	}
+ul li.fl{
+	display:block;
+	width:60px;
+	float:left;
+	}
+ul li.fl ul.ch{
+	padding:0px;
+	display:block;
+	width:60px;
+	}
+

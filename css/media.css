@@ -1,0 +1,106 @@
+/* CSS Document */
+ul{list-style:none;}
+a{text-decoration:none;}
+ul li a:hover{text-decoration:underline;}
+header{
+	width:1000px;
+	height:90px;
+	margin:0 auto;
+	}
+/*导航样式*/
+div.nav{
+	z-index:999;
+	position:relative;
+	}
+nav{
+	width:100%;
+	height:36px;
+	background:#01559a;
+	line-height:36px;
+	font-size:14px;
+	}
+nav ul{
+	width:1000px;
+	height:36px;
+	margin:0 auto;
+	}
+nav ul li{
+	float:left;
+	height:35px;
+	width:110px;
+	margin-top:1px;
+	}
+nav a{
+	color:#fff;
+	}
+nav ul li:hover{
+	background:#229eda;
+	}
+nav ul li a{
+	padding:0 25px;
+	}
+nav ul.ch{
+	padding:0px;
+	display:none;
+	width:110px;
+	text-align:center;
+	}
+nav ul.ch li{
+	background-color:#01559a;
+	}
+nav ul.ch li:hover{
+	background-color:#229eda;
+	}
+video{
+	width:500px;
+	height:300px;
+	display:inline;
+	}
+body{
+    margin:0 auto;
+	padding:0px;
+	font-size:10px;
+	font-family:"微软雅黑";
+	background:#f2f2f2;
+	background-color:#CFF;
+	}
+#total{
+	border:1px solid #6FC;
+	margin:0px auto;
+	padding:0px 20px;
+	font-size:24px;
+	color:#6FC;
+	width:900px;
+	height:40px;
+	background-color:#093;
+	}
+#video1,#video2,#video3,#video4{
+	text-align:center;
+	padding-bottom:10px;
+	padding-top:10px;
+	font-size:18px;
+	}
+/*页面底部样式*/
+footer{
+	width:1000px;
+	border-top:1px solid #ccc;
+	height:87px;
+	margin:0 auto;
+	margin-top:30px;
+	}
+footer .footer-links{
+	line-height:160%;
+	color:#969696;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	padding:20px 0px 10px 0px;
+	}
+footer .footer-links a:hover{
+	color:#5e81bd;
+	}
+footer .copyright{
+	width:100%;
+	text-align:center;
+	color:#666;
+	}	

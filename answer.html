@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>使用JS实现规定时间内答题效果</title>
+<link rel="stylesheet" href="css/answer.css" type="text/css" />
+</head>
+<body>
+<div id="bodyCoent" class="body_content">
+<form method="post">
+	<table class="MainTable" id="QuestionBox">
+    	<tr>
+        <td style="font-weight:bold">第一题：</td>
+      	</tr>
+        <tr>
+        <td>下列哪种语言在目前应用中不区分大小写：</td>
+        </tr>
+        <tr>
+        <td><label><input type="radio"/>A、HTML5</label></td>
+        </tr>
+        <tr>
+        <td><label><input type="radio"/>B、CSS3</label></td>
+        </tr>
+        <tr>
+        <td><label><input type="radio"/>C、JavaScript</label></td>
+        </tr>
+    </table>
+    <div id="Timinginfo">
+    	<div><span>倒计时：<span id="save_info">20</span>秒</span></div>
+        <div class="nextdiv">
+        	<input type="button" name="form_save" value="下一题" onclick="next()"/>
+        </div>
+    </div>
+</form>
+<table id="question_3" style="display:none;">
+	<tbody>
+    	<tr><td style="font-weight:bold;">第二题：</td></tr>
+        <tr><td>在HTML文档中，引用外部样式结构的标准位置是：</td></tr>
+        <tr><td><label><input type="radio"/>A、文档尾部</label></td></tr>
+        <tr><td><label><input type="radio"/>B、文档顶部</label></td></tr>
+        <tr><td><label><input type="radio"/>C、head元素部分</label></td></tr>
+    </tbody>
+    <div id="Timinginfo" style="display:none;">
+    	<div><span>倒计时：<span id="save_info">20</span>秒</span></div>
+        <div class="nextdiv">
+        	<input type="button" name="form_save" value="下一题" onclick="next()"/>
+        </div>
+    </div>
+</table>
+<table id="question_2" style="display:none;">
+	<tbody>
+    	<tr><td style="font-weight:bold;">第三题：</td></tr>
+        <tr><td>在HTML文档中，引用外部样式结构的标准位置是：</td></tr>
+        <tr><td><label><input type="radio"/>A、文档尾部</label></td></tr>
+        <tr><td><label><input type="radio"/>B、文档顶部</label></td></tr>
+        <tr><td><label><input type="radio"/>C、head元素部分</label></td></tr>
+    </tbody>
+    <div id="Timinginfo" style="display:none;">
+    	<div><span>倒计时：<span id="save_info">20</span>秒</span></div>
+        <div class="nextdiv">
+        	<input type="button" name="form_save" value="下一题" onclick="next()"/>
+        </div>
+    </div>
+</table>
+<table id="question_1" style="display:none;">
+	<tbody>
+    	<tr><td style="font-weight:bold;">第四题：</td></tr>
+        <tr><td>在HTML文档中，引用外部样式结构的标准位置是：</td></tr>
+        <tr><td><label><input type="radio"/>A、文档尾部</label></td></tr>
+        <tr><td><label><input type="radio"/>B、文档顶部</label></td></tr>
+        <tr><td><label><input type="radio"/>C、head元素部分</label></td></tr>
+    </tbody>
+    <div id="Timinginfo" style="display:none;">
+    	<div><span>倒计时：<span id="save_info">20</span>秒</span></div>
+        <div class="nextdiv">
+        	<input type="button" name="form_save" value="下一题" onclick="next()"/>
+        </div>
+    </div>
+</table>
+</div>
+
+<script src="js/answer.js"></script>
+</body>
+</html>

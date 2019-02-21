@@ -1,0 +1,99 @@
+/* CSS Document */
+/*重设浏览器默认样式，设置通用原子类*/
+html{
+	background:white;
+	color:black;
+	}/*设置网页背景颜色和字体颜色*/
+*{
+	margin:0px;
+	padding:0px;
+ }/*清除网页所有元素内外边距的默认值，使其为0*/
+body,button,input,select,textarea{
+	font:12px "微软雅黑",\5b8b\4f53,arial,sans-serif;
+	}/*要注意表单元素并不继承父级font*/
+input,select,textarea{
+	font-size:100%;
+	}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	}/*去掉table cell的边距，并让其重合*/
+th{
+	text-align:inherit;
+	}/*ie bug：th不继承text-align*/
+fieldset,img{
+	border:none;
+	}/*清除默认边框*/
+iframe{
+	display:block;
+	}
+abbr,acronym{
+	border:none;
+	font-variant:normal;
+	}/*清除Firefox下此元素的边框*/
+del{
+	text-decoration:line-through;
+	}/*设置文字带有删除线*/
+address,caption,cite,code,dfn,em,th,var{
+	font-style:normal;
+	font-weight:500;
+	}
+ul,ol{
+	list-style:none;
+	}/*清除列表的默认样式*/
+caption,th{
+	text-align:left;/*居中对齐*/
+	}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:500;
+	}/*设置标题自定义样式*/
+q:before,q:after{
+	content:"";
+	}
+sub,sup{
+	font-size:75%;
+	line-height:0;
+	position:ralative;
+	vertical-align:baseline;
+	}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+ins,a{text-decoration:none;}
+a:focus,*:focus{
+	outline:none;}/*去除IE6 ie7焦点点线状*/
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;/*设置表元素*/
+	}
+.clearfix:after{
+	clear:both;
+	overflow:hidden;
+	}
+.clear{
+	clear:both;
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	}
+.hide{
+	display:none;
+	}
+.block{
+	display:block;
+	}
+.fl,.fr{
+	display:inline;
+	}
+.fl{
+	float:left;
+	}
+.fr{
+	float:right;
+	}
+.center{
+	margin:0 auto;
+	}/*不浮动的情况下设置居中*/
+	

@@ -1,0 +1,131 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>他的视频</title>
+<link rel="stylesheet" href="css/media.css" type="text/css"/>
+<script src="jQuery/jquery-3.2.1/jquery-3.2.1.js"></script>
+</head>
+<body>
+<header>
+      <div><img src="image/cartoonlong.jpg" alt="" width="1000px" height="90px" /></div>
+</header>
+    <!--导航begin-->
+    <div class="nav">
+        <nav class="center">
+            <ul>
+                <li class="active"><a href="web_layout.html">首页</a></li>
+                <li><a href="#" id="showAjax">他的简介</a></li>
+                <li><a href="#news">新闻中心</a></li>
+                <li><a href="#intro">产品介绍</a></li>
+                <li><a href="#stuff">员工风采</a></li>
+                <li class="m"><a href="#">他的作品</a>
+                	<ul class="ch">
+                    	<li class="menu"><a href="#">他的视频</a></li>
+                        <li class="menu"><a href="music.html">他的音乐</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">招募英才</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="formcheck.html">登陆</a></li>
+            </ul>
+        </nav>
+    </div>
+<div id="total">剪辑视频作品</div>
+<div id="video1">
+<img src="image/33c.jpg" width="450px" height="300px" />
+<video controls poster="image/humor.jpg" id="tusu">视频</video>
+<span>
+	<h2>古剑奇谭</h2>
+	<summary>
+	 <details>李易峰（饰百里屠苏)，原名韩云溪，太子长琴半身。幼时经历灭族之灾，本来已死去，
+     但因体内被封进了太子长琴一半魂魄而得以死而复生。身怀凶剑焚寂的煞气，在某次煞气发作中被紫胤
+     真人所救，后拜入昆仑山天墉城，以“屠绝鬼气，苏醒人魂”之意更名为“百里屠苏”。十年后，他为寻
+     找灭族仇人而离开天墉城，踏上了漫漫征途。</details>
+    </summary>
+</span>
+</div>
+<div id="video2">
+<img src="image/1425012159183.jpg" width="450px" height="300px" />
+<video controls poster="image/humor.jpg" id="baba">视频</video>
+<span>
+	<h2>活色生香</h2>
+	<summary>
+	 <details>李易峰（饰宁致远），宁家大少爷，香业大佬的二世祖小霸王，是一位由于天生没
+     有嗅觉就立志当一个合格的败家子儿的“废柴少爷”，后被治愈。很喜欢乐颜，后来也如愿娶到乐颜。
+     经常和妹妹一起“坑爹”，让宁老爷又气又爱。后期为家仇国恨变腹黑。</details>
+    </summary>
+</span>
+</div>
+<div id="video3">
+<img src="image/0.00.jpg" width="450px" height="300px" />
+<video controls poster="image/humor.jpg" id="fan">视频</video>
+<span>
+	<h2>青云志</h2>
+	<summary>
+	 <details>李易峰（饰张小凡），《诛仙》主人公。性格倔强坚定，重情重义，身怀大梵般若功法和噬血珠，因缘际会        
+       之下习得天下第一武功天书，是当世唯一一个佛、道、魔三修的人。原为青云门下大竹峰一脉弟子
+       ，师从田不易，入门前师承天音寺高僧普智。七脉会武时，与小竹峰陆雪琪初遇，后在山海苑与鬼王之女碧
+       瑶相遇。第一次正魔大战后，身入鬼王宗，成为鬼王宗副宗主"鬼厉"，人称"血公子"。历经磨难，于幻月洞
+       府悟透人生后，用诛仙剑击败鬼王，挽救青云。</details>
+    </summary>
+</span>
+</div>
+<div id="video4">
+<img src="image/93.jpg" width="450px" height="300px" />
+<video controls poster="image/humor.jpg" id="xiu">视频</video>
+<span>
+	<h2>曾代言广告</h2>
+	<summary>
+	 <details>植村秀广告，卖卸妆油、水的，贼。。。。贵</details>
+    </summary>
+</span>
+</div>
+<footer>
+	<div class="footer-links">
+    	<a href="#">首页</a>|<a href="#">公司介绍</a>|<a href="#">新闻中心</a>|<a href="#">通知公告</a>|<a href="#">产品介绍</a>|
+        <a href="#">关于我们</a>|<a href="#">瞠目英才</a>|<a href="#">联系我们</a>
+    </div>
+    <div class="copyright">
+    	@xporange.5555520lyf.cn All Rights Reserved.
+    </div>
+</footer>
+
+<script>
+    let pull = document.getElementsByClassName('m');
+    let ch = document.getElementsByClassName('ch');
+
+    pull[0].onmouseover = function(){
+            ch[0].style.display = 'block';
+        }
+
+    pull[0].onmouseout = function (){
+            ch[0].style.display = 'none';
+        }
+
+    function videoPlay(id,url){
+        let player = document.getElementById(id);
+        player.setAttribute('src',url);
+        player.play();
+    }
+
+    tusu.onclick = function(){
+        videoPlay('tusu','media/百里屠苏.mp4');
+    }
+
+    baba.onclick = function(){
+        videoPlay('baba','media/小霸王cut.mp4');
+    }
+
+    fan.onclick = function(){
+        videoPlay('fan','media/小凡.mp4');
+    }
+
+    xiu.onclick = function(){
+        videoPlay('xiu','media/植村秀.mp4');
+    }
+
+</script>
+<script src="jQ/jquery.js"></script>
+</body>
+</html>

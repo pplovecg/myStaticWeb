@@ -1,0 +1,100 @@
+/* CSS Document */
+.body{
+	width:100%;
+	height:100%;
+	}
+body{
+    margin:0 auto;
+	padding:0px;
+	font-size:10px;
+	font-family:"微软雅黑";
+	background:#f2f2f2;
+	background-color:#CFF;
+	}
+	ul{list-style:none;}
+a{text-decoration:none;}
+ul li a:hover{text-decoration:underline;}
+header{
+	width:1000px;
+	height:90px;
+	margin:0 auto;
+	}
+/*导航样式*/
+div.nav{
+	z-index:999;
+	position:relative;
+	}
+nav{
+	width:100%;
+	height:36px;
+	background:#01559a;
+	line-height:36px;
+	font-size:14px;
+	}
+nav ul{
+	width:1000px;
+	height:36px;
+	margin:0 auto;
+	}
+nav ul li{
+	float:left;
+	height:35px;
+	width:110px;
+	margin-top:1px;
+	}
+nav a{
+	color:#fff;
+	}
+nav ul li:hover{
+	background:#229eda;
+	}
+nav ul li a{
+	padding:0 25px;
+	}
+nav ul.ch{
+	padding:0px;
+	display:block;
+	width:110px;
+	text-align:center;
+	}
+nav ul.ch li{
+	background-color:#01559a;
+	}
+nav ul.ch li:hover{
+	background-color:#229eda;
+	}
+#bodyContent{
+	text-align:center;
+	position:relative;
+	top:40%;
+	left:30%;
+	font-size:16px;
+	}
+.td_left{
+	width:150px;
+	text-align:right;
+	}
+/*页面底部样式*/
+footer{
+	width:1000px;
+	border-top:1px solid #ccc;
+	height:87px;
+	margin:0 auto;
+	margin-top:30px;
+	}
+footer .footer-links{
+	line-height:160%;
+	color:#969696;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	padding:20px 0px 10px 0px;
+	}
+footer .footer-links a:hover{
+	color:#5e81bd;
+	}
+footer .copyright{
+	width:100%;
+	text-align:center;
+	color:#666;
+	}	

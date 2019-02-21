@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>网页布局</title>
+<link rel="stylesheet" href="css/web_layout1.css" type="text/css" />
+<link rel="stylesheet" href="css/web_layout2.css" type="text/css" />
+<script src="jQuery/jquery-3.2.1/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="top-wrapper">
+<!--头部begin-->
+    <header>
+        <div><img src="image/cartoonlong.jpg" alt="" width="1000px" height="90px" /></div>
+    </header>
+    <!--导航begin-->
+    <div class="nav">
+        <nav class="center">
+            <ul>
+                <li class="active"><a href="web_layout.html">首页</a></li>
+                <li><a href="#" id="showAjax">他的简介</a></li>
+                <li><a href="#news">新闻中心</a></li>
+                <li><a href="#intro">产品介绍</a></li>
+                <li><a href="#stuff">员工风采</a></li>
+                <li class="m"><a href="#">他的作品</a>
+                	<ul class="ch">
+                    	<li class="menu"><a href="video.html">他的视频</a></li>
+                        <li class="menu"><a href="music.html">他的音乐</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">招募英才</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="formcheck.html">登陆</a></li>
+            </ul>
+        </nav>
+    </div>
+   <div id="AjaxContent">
+    <!--banner begin-->
+   <div class="banner center">
+        <img src="image/&gp=0.jpg" alt="" id="img" />
+        <a class="prev" onClick="prevChange()"></a>
+        <a class="next" onClick="nextChange()"></a>
+   </div>
+    <!--页面主体begin-->
+    <section class="main center">
+        <div class="main-left fl">
+        <!--信息中心begin-->
+            <div class="moudle info">
+                <div class="title"><a name="news">新闻中心</a></div>
+                <div class="content">
+                    <ul>
+                       <li><i class="i-list"></i><a href="#">环境好，交通好方便，环境好交通方便，交通方便。</a><time>2014-02-08</time></li>				                        <li><i class="i-list"></i><a href="#">环境好，交通好方便，方便，交通方便。</a><time>2014-02-08</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，环境好交通方便，交通方便。</a><time>2014-02-08</time></li>
+                        <li><i class="i-list"></i><a href="#">环好，交通好方便，环境好交通方便，交通方便。</a><time>2014-02-08</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，通好方便，环通方便，交通方便。</a><time>2014-02-08</time></li>
+                        <li><i class="i-list"></i><a href="#">便，环境好交通方便，交通方便。</a><time>2014-02-08</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通好方便，环境好交通方便，交通方便。</a><time>2014-02-08</time></li
+                     ></ul>
+                </div>
+            </div>
+         <!--产品介绍begin-->
+            <div class="moudle notice notice-down">
+                <div class="title"><a name="intro">产品介绍</a></div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img src="image/69.jpg" alt=""/></div>
+                                <div class="txt"><h3>黄金楼层，学区房</h3>
+                                                  <span>260RMB</span>
+                                </div>
+                             </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img src="image/93.jpg" alt=""/></div>
+                                <div class="txt"><h3>黄金楼层，学区房</h3>
+                                                  <span>260RMB</span>
+                                </div>
+                             </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img src="image/69.jpg" alt=""/></div>
+                                <div class="txt"><h3>黄金楼层，学区房</h3>
+                                                  <span>260RMB</span>
+                                </div>
+                             </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img"><img src="image/69.jpg" alt=""/></div>
+                                <div class="txt"><h3>黄金楼层，学区房</h3>
+                                                  <span>260RMB</span>
+                                </div>
+                             </a>
+                        </li>
+                </div>
+            </div>
+            <!--员工风采begin-->
+            <div class="moudle people">
+                <div class="title"><a name="stuff">员工风采</a></div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <div class="img fl"><img src="image/269.jpg" alt="" /></div>
+                            <div class="txt fr">
+                                <span>姓名：张三</span>
+                                <span>职位：经理</span>
+                                <span>学历：本科</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img fl"><img src="image/269.jpg" alt="" /></div>
+                            <div class="txt fr">
+                                <span>姓名：张三</span>
+                                <span>职位：经理</span>
+                                <span>学历：本科</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img fl"><img src="image/269.jpg" alt="" /></div>
+                            <div class="txt fr">
+                                <span>姓名：张三</span>
+                                <span>职位：经理</span>
+                                <span>学历：本科</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img fl"><img src="image/269.jpg" alt="" /></div>
+                            <div class="txt fr">
+                                <span>姓名：张三</span>
+                                <span>职位：经理</span>
+                                <span>学历：本科</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img fl"><img src="image/269.jpg" alt="" /></div>
+                            <div class="txt fr">
+                                <span>姓名：张三</span>
+                                <span>职位：经理</span>
+                                <span>学历：本科</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img fl"><img src="image/269.jpg" alt="" /></div>
+                            <div class="txt fr">
+                                <span>姓名：张三</span>
+                                <span>职位：经理</span>
+                                <span>学历：本科</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+        <aside class="fr">
+            <!--快速链接begin-->
+            <div class="links">
+                <div class="link01"><a href="#">公司简介</a></div>
+                <div class="link02"><a href="#">联系我们</a></div>
+                <div class="link03"><a href="#">诚聘英才</a></div>
+                <div class="link04"><a href="#">关于我们</a></div>
+            </div>
+            <!--最新消息begin-->
+            <div class="list new">
+                <div class="title">新闻中心</div>
+                <div class="content center">
+                    <ul>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                    </ul>
+                </div>
+            </div>
+            <!--通知公告-->
+            <div class="info new">
+                <div class="title">通知公告</div>
+                <div class="content center">
+                    <ul>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                        <li><i class="i-list"></i><a href="#">环境好，交通方便</a><time>2018-02-28</time></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </section>
+  </div>
+<footer>
+	<div class="footer-links">
+    	<a href="#">首页</a>|<a href="#">公司介绍</a>|<a href="#">新闻中心</a>|<a href="#">通知公告</a>|<a href="#">产品介绍</a>|
+        <a href="#">关于我们</a>|<a href="#">瞠目英才</a>|<a href="#">联系我们</a>
+    </div>
+    <div class="copyright">
+    	@xporange.5555520lyf.cn All Rights Reserved.
+    </div>
+</footer>
+
+<script src="jQ/AJAX.js"></script>
+<script src="js/layout.js"></script>
+<script src="jQ/jquery.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
